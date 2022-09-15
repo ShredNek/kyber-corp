@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .navbar-icon {
+    @apply mx-1.5 text-white list-none font-extralight m-auto text-base flex-nowrap;
+  }
+
+  .sidebar-icon {
+    @apply m-8 mx-1.5 ml-4 text-black list-none font-extralight text-2xl flex-nowrap;
+  }
+
+  .box-outliner {
+    @apply outline-red-500 outline outline-offset-2 outline-2;
+  }
+
+  .submit-form-my {
+    @apply my-5 w-full h-8 p-2 italic;
+  }
+}
